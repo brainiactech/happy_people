@@ -9,12 +9,7 @@
 	<div>
 	<div class="single-slider slider-screen nrbop bg-black-alfa-40 " style="background-image: url(assets/img/slides/slide2.png); height: 250px;">
 		<div class="container">
-			<div class="">
-				<h2>About Us</h2>
-				<div>
-					{{--<h5>Home<i class="fa fa-angle-double-bottom"></i>About Us</h5>--}}
-				</div>
-			</div>
+			
 			<div class="parallax-mask"></div>
 			
 

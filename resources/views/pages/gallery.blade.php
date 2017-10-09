@@ -11,10 +11,7 @@
 		<div class="container">
 			<div class="parallax-mask"></div>
 			<div class="section-name">
-				<h2>Gallery</h2>
-				<div class="short-text">
-					<h5>Home<i class="fa fa-angle-double-right"></i>Gallery</h5>
-				</div>
+				
 			</div>
 		</div>
 	</div>
