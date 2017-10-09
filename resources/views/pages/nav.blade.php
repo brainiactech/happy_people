@@ -46,15 +46,15 @@
 								<div class="mobile-menu">
 									<nav id="mobile-nav">
 										<ul>
-											<li><a href="#">Home </a></li>
-											<li><a href="#">Projects</a>
+											<li><a href="/">Home </a></li>
+											<li><a href="our_project">Projects</a>
 
 											</li>
-											<li><a href="#"> gallery </a></li>
-											<li><a href="#"> About </a></li>
+											<li><a href="gallery"> gallery </a></li>
+											<li><a href="about_us"> About </a></li>
 											<li><a href="#">Blog</a>
 											</li>
-											<li><a href="#">Contact</a></li>
+											<li><a href="contact_us">Contact</a></li>
 										</ul>
 									</nav>
 								</div>	
