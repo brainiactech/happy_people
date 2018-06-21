@@ -96,7 +96,7 @@
 					</div>
 
 					<div class="btns-wrapper">
-						<a href="#" class="btn btn-big btn-solid "><i class="fa fa-archive"></i><span>Partner with us</span></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						<a href="/volunteer" class="btn btn-big btn-solid "><i class="fa fa-archive"></i><span>Partner with us</span></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 						<a href="#" class="btn btn-big btn-solid "><i class="fa fa-archive"></i><span>Volunteer</span></a>
 
 					</div>

@@ -7,7 +7,17 @@
 	<title>The Happy People @yield('title')</title>
 
 
-	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/owl-carousel/assets/owl.carousel.css">
@@ -19,26 +29,9 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<style rel="stylesheet" type="text/css">
 
-		button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
-			display: none!important;
-		}
-		@media screen and (max-width: 380px){
-         a.btn-big{
-			 margin-bottom: 20px;
-		 }
-		}
-	</style>
-	<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+	</head>
 
 
 <body>
@@ -49,7 +42,7 @@
     @include('pages.nav')
     
     @yield('body')
-    @include('pages.footer')
+    
 
 
 	<!-- Scripts -->
@@ -58,33 +51,7 @@
 
 	<script type="text/javascript" src="assets/js/slick.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function () {
-
-            window.onscroll = function() {myFunction()};
-
-            function myFunction() {
-                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                    $('#navi').css("background", "#ffffff");
-                    $('.menu > li a,.menu > li span').css("color", "black");
-                    $('.logo-wrap > a').css("color",'black');
-                } else {
-                    $('#navi').css("background", "transparent");
-                    $('.menu > li a,.menu > li span').css("color", "white");
-                    $('.logo-wrap > a').css("color",'white');
-                }
-            }
-
-
-            $('.autoplay').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                accessibility: false
-            });
-        });
-	</script>
+	
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.meanmenu.js"></script>
 	<script type="text/javascript" src="assets/js/progress-bar-appear.js"></script>
@@ -97,7 +64,9 @@
 	<script type="text/javascript" src="assets/js/plugins.js"></script>
 	<script type="text/javascript" src="assets/js/js.js"></script>
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
-        
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
 	@yield('scripts')
 </body>
 </html>

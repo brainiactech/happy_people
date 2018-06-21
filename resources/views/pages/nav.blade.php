@@ -15,12 +15,18 @@
 							<li>
 								<a href="about_us">About Us</a>
 							</li>
-							<li>
-								<a href="our_project">Our Projects</a>
+							<li><a href="our_project">Causes</a>
+          				
+            			<li><a href="recent_projects">Recent projects</a></li>
+            			
+						
 
 							</li>
+
+							 
+          
 							<li>
-								<a href="gallery">Gallery</a>
+								<a href="media">Media</a>
 							</li>
 							
 							<li>
@@ -47,14 +53,18 @@
 									<nav id="mobile-nav">
 										<ul>
 											<li><a href="/">Home </a></li>
-											<li><a href="our_project">Projects</a>
+											<li><a href="about_us"> About Us </a></li>
+											<li><a href="our_project">Causes</a>
+												<li>
+								<a href="recent_projects">Recent Projects</a>
 
+							</li>
 											</li>
-											<li><a href="gallery"> gallery </a></li>
-											<li><a href="about_us"> About </a></li>
+											<li><a href="media"> Media </a></li>
+											
 											<li><a href="#">Blog</a>
 											</li>
-											<li><a href="contact_us">Contact</a></li>
+											<li><a href="contact_us">Contact Us</a></li>
 										</ul>
 									</nav>
 								</div>	

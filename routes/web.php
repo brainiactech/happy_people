@@ -20,6 +20,10 @@ Route::get('about_us', 'PagesController@about');
 Route::get('our_project', 'PagesController@cause');
 Route::get('contact_us', 'PagesController@support');
 
-Route::get('gallery', 'PagesController@gallery');
+Route::get('media', 'PagesController@media');
 
 Route::get('events', 'PagesController@events');
+
+Route::get('volunteer', 'PagesController@volunteer');
+
+Route::get('recent_projects', 'PagesController@recent');

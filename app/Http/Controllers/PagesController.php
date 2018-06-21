@@ -21,10 +21,18 @@ class PagesController extends Controller
     public function cause(){
     	return view('pages.causes');
     }
-    public function gallery(){
+    public function media(){
     	return view('pages.gallery');
     }
     public function events(){
     	return view('pages.events');
+    }
+
+    public function volunteer(){
+        return view('pages.volunteer');
+    }
+
+    public function recent(){
+        return view('pages.recent');
     }
 }
